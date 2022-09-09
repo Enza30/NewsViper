@@ -47,6 +47,15 @@
 		51DB53CE28CB0F2200AB7A0D /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53CD28CB0F2200AB7A0D /* SearchPresenter.swift */; };
 		51DB53D028CB13A000AB7A0D /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53CF28CB13A000AB7A0D /* SearchInteractor.swift */; };
 		51DB53D228CB150000AB7A0D /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53D128CB150000AB7A0D /* SearchRouter.swift */; };
+		51DB53D528CB170100AB7A0D /* SourcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53D428CB170100AB7A0D /* SourcesViewController.swift */; };
+		51DB53D728CB17DF00AB7A0D /* SourcesManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53D628CB17DF00AB7A0D /* SourcesManager.swift */; };
+		51DB53D928CB18A900AB7A0D /* SourcesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53D828CB18A900AB7A0D /* SourcesPresenter.swift */; };
+		51DB53DB28CB190700AB7A0D /* SourceInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53DA28CB190700AB7A0D /* SourceInteractor.swift */; };
+		51DB53DD28CB196D00AB7A0D /* SourcesRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53DC28CB196D00AB7A0D /* SourcesRouter.swift */; };
+		51DB53DF28CB1A5500AB7A0D /* SourcesAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53DE28CB1A5500AB7A0D /* SourcesAssembly.swift */; };
+		51DB53E128CB1B6100AB7A0D /* AppInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53E028CB1B6100AB7A0D /* AppInteractor.swift */; };
+		51DB53E328CB1BC300AB7A0D /* AppCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53E228CB1BC300AB7A0D /* AppCoordinator.swift */; };
+		51DB53E528CB1D2E00AB7A0D /* SearchAssembly.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51DB53E428CB1D2E00AB7A0D /* SearchAssembly.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -93,6 +102,15 @@
 		51DB53CD28CB0F2200AB7A0D /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		51DB53CF28CB13A000AB7A0D /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
 		51DB53D128CB150000AB7A0D /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
+		51DB53D428CB170100AB7A0D /* SourcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesViewController.swift; sourceTree = "<group>"; };
+		51DB53D628CB17DF00AB7A0D /* SourcesManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesManager.swift; sourceTree = "<group>"; };
+		51DB53D828CB18A900AB7A0D /* SourcesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesPresenter.swift; sourceTree = "<group>"; };
+		51DB53DA28CB190700AB7A0D /* SourceInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourceInteractor.swift; sourceTree = "<group>"; };
+		51DB53DC28CB196D00AB7A0D /* SourcesRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesRouter.swift; sourceTree = "<group>"; };
+		51DB53DE28CB1A5500AB7A0D /* SourcesAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SourcesAssembly.swift; sourceTree = "<group>"; };
+		51DB53E028CB1B6100AB7A0D /* AppInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppInteractor.swift; sourceTree = "<group>"; };
+		51DB53E228CB1BC300AB7A0D /* AppCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppCoordinator.swift; sourceTree = "<group>"; };
+		51DB53E428CB1D2E00AB7A0D /* SearchAssembly.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchAssembly.swift; sourceTree = "<group>"; };
 		B181C1DC4D14DDE5F12DBBB0 /* Pods-NewsViper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NewsViper.debug.xcconfig"; path = "Target Support Files/Pods-NewsViper/Pods-NewsViper.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -138,6 +156,7 @@
 		51DB536F28C96D5800AB7A0D /* NewsViper */ = {
 			isa = PBXGroup;
 			children = (
+				51DB53D328CB16EB00AB7A0D /* Sources */,
 				51DB53C628CB03A700AB7A0D /* Search */,
 				51DB53B828CAF08200AB7A0D /* Categories */,
 				51DB53B328CAE80600AB7A0D /* Network */,
@@ -153,6 +172,8 @@
 				51DB539528CAA9A400AB7A0D /* SourcesEntity.swift */,
 				51DB539728CAAA2400AB7A0D /* CategoriesEntity.swift */,
 				51DB53A028CAB96700AB7A0D /* Extensions.swift */,
+				51DB53E028CB1B6100AB7A0D /* AppInteractor.swift */,
+				51DB53E228CB1BC300AB7A0D /* AppCoordinator.swift */,
 			);
 			path = NewsViper;
 			sourceTree = "<group>";
@@ -225,8 +246,22 @@
 				51DB53CD28CB0F2200AB7A0D /* SearchPresenter.swift */,
 				51DB53CF28CB13A000AB7A0D /* SearchInteractor.swift */,
 				51DB53D128CB150000AB7A0D /* SearchRouter.swift */,
+				51DB53E428CB1D2E00AB7A0D /* SearchAssembly.swift */,
 			);
 			path = Search;
+			sourceTree = "<group>";
+		};
+		51DB53D328CB16EB00AB7A0D /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				51DB53D428CB170100AB7A0D /* SourcesViewController.swift */,
+				51DB53D628CB17DF00AB7A0D /* SourcesManager.swift */,
+				51DB53D828CB18A900AB7A0D /* SourcesPresenter.swift */,
+				51DB53DA28CB190700AB7A0D /* SourceInteractor.swift */,
+				51DB53DC28CB196D00AB7A0D /* SourcesRouter.swift */,
+				51DB53DE28CB1A5500AB7A0D /* SourcesAssembly.swift */,
+			);
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		E68E55190FEAF9241F88F1F4 /* Pods */ = {
@@ -354,21 +389,26 @@
 			files = (
 				51DB53A528CAC90D00AB7A0D /* NewsEndPoints.swift in Sources */,
 				51DB538B28C96E7200AB7A0D /* NewsRouter.swift in Sources */,
+				51DB53D728CB17DF00AB7A0D /* SourcesManager.swift in Sources */,
 				51DB539F28CAB6AB00AB7A0D /* NewsCollectionViewCell.swift in Sources */,
 				51DB53A328CAC51F00AB7A0D /* Network.swift in Sources */,
 				51DB53AE28CAE0AA00AB7A0D /* WebPagePresenter.swift in Sources */,
 				51DB53A728CAD26100AB7A0D /* NewsAssembly.swift in Sources */,
+				51DB53DB28CB190700AB7A0D /* SourceInteractor.swift in Sources */,
 				51DB53CA28CB073200AB7A0D /* SearchBarManager.swift in Sources */,
 				51DB537128C96D5800AB7A0D /* AppDelegate.swift in Sources */,
 				51DB537328C96D5800AB7A0D /* SceneDelegate.swift in Sources */,
+				51DB53DD28CB196D00AB7A0D /* SourcesRouter.swift in Sources */,
 				51DB538928C96E5E00AB7A0D /* NewsPresenter.swift in Sources */,
 				51DB538D28C96EA500AB7A0D /* NewsEntity.swift in Sources */,
 				51DB53C828CB03BA00AB7A0D /* SearchViewController.swift in Sources */,
 				51DB53BC28CAF34600AB7A0D /* CategoriesTableViewManager.swift in Sources */,
 				51DB539C28CAAF3700AB7A0D /* NewsCollectionViewManager.swift in Sources */,
+				51DB53DF28CB1A5500AB7A0D /* SourcesAssembly.swift in Sources */,
 				51DB539628CAA9A400AB7A0D /* SourcesEntity.swift in Sources */,
 				51DB53BA28CAF09900AB7A0D /* CategoriesViewController.swift in Sources */,
 				51DB53C328CAF85A00AB7A0D /* CategoriesRouter.swift in Sources */,
+				51DB53E528CB1D2E00AB7A0D /* SearchAssembly.swift in Sources */,
 				51DB53B028CAE2B800AB7A0D /* WebPageInteractor.swift in Sources */,
 				51DB53CC28CB088500AB7A0D /* SearchCollectionViewManager.swift in Sources */,
 				51DB539828CAAA2400AB7A0D /* CategoriesEntity.swift in Sources */,
@@ -378,8 +418,10 @@
 				51DB539128C994BD00AB7A0D /* BaseViewController.swift in Sources */,
 				51DB53A128CAB96700AB7A0D /* Extensions.swift in Sources */,
 				51DB538728C96E4900AB7A0D /* NewsInteractor.swift in Sources */,
+				51DB53E128CB1B6100AB7A0D /* AppInteractor.swift in Sources */,
 				51DB53A928CAD35000AB7A0D /* ServiceLocator.swift in Sources */,
 				51DB538528C96E3900AB7A0D /* NewsViewController.swift in Sources */,
+				51DB53D928CB18A900AB7A0D /* SourcesPresenter.swift in Sources */,
 				51DB53CE28CB0F2200AB7A0D /* SearchPresenter.swift in Sources */,
 				51DB53AC28CADD6700AB7A0D /* WebPageController.swift in Sources */,
 				51DB539A28CAAE8100AB7A0D /* NewsViewInput.swift in Sources */,
@@ -388,7 +430,9 @@
 				51DB53C028CAF7B200AB7A0D /* CategoriesInteractor.swift in Sources */,
 				51DB53B228CAE54F00AB7A0D /* WebPageAssembly.swift in Sources */,
 				51DB53BE28CAF61900AB7A0D /* CategoriesPresenter.swift in Sources */,
+				51DB53E328CB1BC300AB7A0D /* AppCoordinator.swift in Sources */,
 				51DB53B728CAEDA400AB7A0D /* SourcesTableViewCell.swift in Sources */,
+				51DB53D528CB170100AB7A0D /* SourcesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
