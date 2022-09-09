@@ -165,15 +165,13 @@
 				51DB539228C99CBF00AB7A0D /* News */,
 				51DB537028C96D5800AB7A0D /* AppDelegate.swift */,
 				51DB537228C96D5800AB7A0D /* SceneDelegate.swift */,
+				51DB53E028CB1B6100AB7A0D /* AppInteractor.swift */,
+				51DB53E228CB1BC300AB7A0D /* AppCoordinator.swift */,
+				51DB539028C994BD00AB7A0D /* BaseViewController.swift */,
+				51DB53A028CAB96700AB7A0D /* Extensions.swift */,
 				51DB537928C96D5900AB7A0D /* Assets.xcassets */,
 				51DB537B28C96D5900AB7A0D /* LaunchScreen.storyboard */,
 				51DB537E28C96D5900AB7A0D /* Info.plist */,
-				51DB539028C994BD00AB7A0D /* BaseViewController.swift */,
-				51DB539528CAA9A400AB7A0D /* SourcesEntity.swift */,
-				51DB539728CAAA2400AB7A0D /* CategoriesEntity.swift */,
-				51DB53A028CAB96700AB7A0D /* Extensions.swift */,
-				51DB53E028CB1B6100AB7A0D /* AppInteractor.swift */,
-				51DB53E228CB1BC300AB7A0D /* AppCoordinator.swift */,
 			);
 			path = NewsViper;
 			sourceTree = "<group>";
@@ -233,6 +231,7 @@
 				51DB53BF28CAF7B200AB7A0D /* CategoriesInteractor.swift */,
 				51DB53C228CAF85A00AB7A0D /* CategoriesRouter.swift */,
 				51DB53C428CAF92900AB7A0D /* CategoriesAssembly.swift */,
+				51DB539728CAAA2400AB7A0D /* CategoriesEntity.swift */,
 			);
 			path = Categories;
 			sourceTree = "<group>";
@@ -260,6 +259,7 @@
 				51DB53DA28CB190700AB7A0D /* SourceInteractor.swift */,
 				51DB53DC28CB196D00AB7A0D /* SourcesRouter.swift */,
 				51DB53DE28CB1A5500AB7A0D /* SourcesAssembly.swift */,
+				51DB539528CAA9A400AB7A0D /* SourcesEntity.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
